@@ -1,0 +1,24 @@
+{
+  "name": "donate-backend-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/vcsepis/donate-backend-nodejs.git",
+  "author": "aoanhcms <mr.hanleve@gmail.com>",
+  "license": "MIT",
+  
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
